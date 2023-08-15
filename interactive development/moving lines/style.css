@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+canvas {
+  background: linear-gradient(45deg, #0d1011, 20%, #163486);
+  margin: 0;
+  padding: 0;
+  border: none;
+}

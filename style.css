@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;1,8..60,400&display=swap');
+
+body {
+    background-color: #070B34;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+a {
+    color: white;
+}
+img {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+.moving-lines {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(30%);
+    transition: all 1s;
+}
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+#intro {
+    background: linear-gradient(#6B4984, #070B34);
+    padding-top: 100px;
+    text-align: center;
+}
+
+#intro > h1 {
+    margin-bottom: 10px;
+}
+.headers {
+
+    font-size: 4rem;
+}
+.headers > h3 {
+    font-size: 3rem;
+}
+
+
+
+#skills {
+    background: linear-gradient(#070B34, #131316);
+    text-align: center;
+    height: 200vh;
+}
+/* .python-logo {
+    width: 100px;
+    padding: 20px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+    background-color: #357A38;
+    text-align: center;
+} */
+
+.skill-python {
+    margin-top: 10%;
+    text-align: left;
+    width: fit-content;
+}
+.python-img {
+    width: 10%;
+    float: left;
+    margin-right: 30px;
+    margin-left: 30%;
+}
+
+
+
+.skill-frontend {
+    text-align: left;
+    margin-top: 20%;
+    margin-left: 30%;
+    width: 40%;
+}
+.skill-frontend > * {
+    width: fit-content;
+}
+.frontend-img {
+    width: 30%;
+    float: right;
+    margin: 0;
+}
+
+.skill-server {
+    margin-top: 20%;
+    text-align: center;
+    flex-direction: column;
+}
+.server-icon-container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+.flask-img {
+    width: 10%;
+}
+.nodejs-img{
+    width: 10%;
+}
+
+
+
+#contact {
+    text-align: justify;
+    background: linear-gradient(#131316, #0a0a0c)
+}
+
+
+

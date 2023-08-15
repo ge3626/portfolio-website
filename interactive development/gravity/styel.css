@@ -1,0 +1,8 @@
+body {
+    overflow-x: hidden;
+}
+canvas {
+    margin: 0;
+    padding: 0;
+    background-color: #C5DFF8;
+}
